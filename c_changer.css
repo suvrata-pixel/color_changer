@@ -1,0 +1,45 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*body
+{
+    background-image: linear-gradient(43deg, pink, beige, rgb(255, 255, 243));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}*/
+.a
+{
+    margin-top: 60px;
+    margin-left: 605px;
+}
+.a h2
+{
+    background-image: linear-gradient(43deg, #4158d0 0%, #ed5f8c 10%, #87bf7b 15%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+#b-box
+{
+    height: 400px;
+    width: 400px;
+    border: solid black 1px;
+    margin-top: 20px;
+    margin-left: 480px;
+}
+.b-btn
+{
+    margin-top: 20px;
+    margin-left: 480px;
+}
+.b-btn button
+{
+    height: 42px;
+    width: 97px;
+    border-radius: 10px;
+    border-color: #ed5f8c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

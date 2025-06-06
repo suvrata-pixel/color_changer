@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> color_changer </title>
+    <link rel="stylesheet" href="c_changer.css">
+</head>
+<body>
+    <div class="a"> <h2> Color Changer </h2> </div>
+    <div class="b">
+        <div id="b-box"></div>
+        <div class="b-btn"> 
+            <button onclick="color('#ff4949')"> Red </button>
+            <button onclick="color('#ac61e6')"> Purple </button>
+            <button onclick="color('#78a478')"> Green </button>
+            <button onclick="color('#6cbff3')"> Blue </button>
+        </div>
+    </div>
+
+    <script>
+        function color(col)
+        {
+            document.getElementById("b-box").style.background = col
+        }
+    </script>
+
+</body>
+</html>
